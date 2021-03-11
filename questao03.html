@@ -9,6 +9,72 @@ Disciplina: Desenvolvimento Web
   <head>
     <title>Questão 03</title>
     <meta charset="utf-8" />
+    </style>
   </head>
-  <body></body>
+  <body>
+    <form>
+      <table style="background-color: mintcream;">
+        <thead style="background-color: lightskyblue;">
+          <tr>
+            <td colspan="6"><h3 style="text-align: center;">Cadastro de Alunos</h3></td>
+          </tr>
+        </thead>
+        <tr>
+          <td>Nome:</td>
+          <td><input type="text"  name="nome"/></td>
+          <td>Idade:</td>
+          <td><input type="text" name="idade"/></td>
+          <td>Sexo:</td>
+          <td>
+            <select name="sexo">
+              <option value="M">M</option>
+              <option value="F">F</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Endereço:</td>
+          <td><input type="text" name="endereco"/></td>
+          <td>UF:</td>
+          <td>
+            <select name="uf">
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+            </select>
+          </td>
+          <td>
+            <button>LIMPAR</button>
+          </td>
+          <td>
+            <button>SALVAR</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
 </html>
